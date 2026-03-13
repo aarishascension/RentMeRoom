@@ -1,43 +1,108 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# OSX
+.DS_Store
 
-# dependencies
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# node.js
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundle artifacts
+*.jsbundle
 
 # Expo
 .expo/
 dist/
 web-build/
-expo-env.d.ts
+.expo-shared/
 
-# Native
-.kotlin/
-*.orig.*
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Keystores (security)
 *.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+*.keystore
 
-# Metro
-.metro-health-check*
+# Documentation (internal notes - exclude from public repo)
+*_FIX.md
+*_GUIDE.md
+*_STATUS.md
+*_SETUP.md
+*_IMPLEMENTATION.md
+*_DEBUG.md
+*_SOLUTION.md
+*_COMPLETE.md
+*_READY.md
+SESSION_SUMMARY.md
+MANUAL_STEPS_REQUIRED.md
+TESTING_CHECKLIST.md
+INTERVIEW_PREPARATION_GUIDE.md
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Keep only essential documentation
+!README.md
+!PROJECT_RESUME.md
+!USER_GUIDE.md
+!PRIVACY_POLICY.md
 
-# macOS
-.DS_Store
-*.pem
+# APK files
+*.apk
+*.aab
 
-# local env files
-.env*.local
+# Old/backup files
+*_old/
+*_backup.*
+*_OLD_*
 
-# typescript
-*.tsbuildinfo
+# IDE
+.vscode/
+.idea/
 
-app-example
-
-# generated native folders
-/ios
-/android
+# Test files
+*.test.js
+*.spec.js
