@@ -71,9 +71,7 @@ GoogleService-Info.plist
 
 # Documentation (internal notes - exclude from public repo)
 *_FIX.md
-*_GUIDE.md
 *_STATUS.md
-*_SETUP.md
 *_IMPLEMENTATION.md
 *_DEBUG.md
 *_SOLUTION.md
@@ -89,6 +87,9 @@ INTERVIEW_PREPARATION_GUIDE.md
 !PROJECT_RESUME.md
 !USER_GUIDE.md
 !PRIVACY_POLICY.md
+!TECH_STACK.md
+!GITHUB_SETUP.md
+!RECRUITER_HIGHLIGHTS.md
 
 # APK files
 *.apk
