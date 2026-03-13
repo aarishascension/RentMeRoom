@@ -253,11 +253,10 @@ Comprehensive documentation available:
 
 ## 📞 Contact
 
-**Developer:** [Your Name]
-- **Email:** [your.email@example.com]
-- **LinkedIn:** [Your LinkedIn Profile]
+**Developer:** [Aarish Ahsaan]
+- **Email:** [ahsaanaarish@gmail.com]
+- **LinkedIn:** [www.linkedin.com/in/aarish-ahsaan]
 - **Portfolio:** [Your Portfolio Website]
-- **GitHub:** [Your GitHub Profile]
 
 ## 📜 License
 
